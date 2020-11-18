@@ -1,0 +1,16 @@
+<view class="discount-ticket-item">
+    <view class="ticket-item-inner">
+        <view class="item-inner-content">
+            <view class="ticket-title">
+                <view class="cash-icon" wx:if="{{source.isCash}}">￥</view>
+                {{source.title}}
+            </view>
+            <view class="ticket-des">
+                {{source.des}}
+            </view>
+        </view>
+        <view class="ticket-get-button {{source.haveTicket ? 'ticket-got' : ''}}" bind:tap="getTicket" data-id="{{source.id}}" data-got="{{source.haveTicket}}">
+            {{source.haveTicket ? '已领取' : '领取'}}
+        </view>
+    </view>
+</view>

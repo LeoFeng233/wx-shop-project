@@ -1,0 +1,55 @@
+.discount-ticket-item {
+    width: 375rpx;
+    box-sizing: border-box;
+    height: 140rpx;
+    padding: 0 20rpx;
+    display: inline-block;
+}
+
+.ticket-item-inner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    border-radius: 10rpx;
+    overflow: hidden;
+}
+
+.item-inner-content {
+    width: 65%;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 16rpx 0 16rpx 30rpx;
+}
+
+.ticket-get-button {
+    width: 35%;
+    background: #ff553e;
+    font-size: 24rpx;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ticket-get-button.ticket-got {
+    background: #ffaa9f;
+}
+
+.ticket-title {
+    display: flex;
+    font-size: 36rpx;
+}
+
+.cash-icon {
+    margin-right: 12rpx;
+    font-size: 26rpx;
+    display: flex;
+    align-self: flex-end;
+}
+
+.ticket-des {
+    font-size: 28rpx;
+    color: #aaa;
+    letter-spacing: 1px;
+}

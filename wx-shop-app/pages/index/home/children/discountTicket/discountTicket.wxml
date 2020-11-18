@@ -1,0 +1,5 @@
+<view class="discount-ticket-container">
+    <scroll-view scroll-x="true" scroll-y="false" class="ticket-list" enable-flex style="width: 100%">
+        <discountTicketItem wx:for="{{list}}" wx:key="index" source="{{item}}" />
+    </scroll-view>
+</view>

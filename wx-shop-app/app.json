@@ -1,0 +1,33 @@
+{
+    "entryPagePath": "pages/index/home/home",
+    "pages": [
+        "pages/index/home/home",
+        "pages/index/cart/cart",
+        "pages/index/mine/mine"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "Weixin",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "custom": true,
+        "list": [
+            {
+                "pagePath": "pages/index/home/home",
+                "text": "首页"
+            },
+            {
+                "pagePath": "pages/index/cart/cart",
+                "text": "购物袋"
+            },
+            {
+                "pagePath": "pages/index/mine/mine",
+                "text": "我的"
+            }
+        ]
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+}

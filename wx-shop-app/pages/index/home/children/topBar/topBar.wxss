@@ -1,0 +1,37 @@
+@import "/style/iconfont.wxss";
+
+.user-avatar {
+    width: 60rpx;
+    height: 60rpx;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2rpx solid #fff;
+}
+
+.custom-top-bar {
+    padding-left: 20rpx;
+    padding-bottom: 40rpx;
+    background: #eee;
+}
+
+.top-bar-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-nickname {
+    font-size: 24rpx;
+    margin-left: 30rpx;
+}
+
+.search-button {
+    font-size: 36rpx;
+    margin-right: 30rpx;
+}

@@ -1,0 +1,13 @@
+<view class="cate-tabs">
+    <scroll-view scroll-x class="cate-tabs-scroll-list" scroll-into-view="item{{currentView}}" scroll-with-animation="{{animation}}">
+        <view class="cate-tabs-content">
+            <block wx:for="{{tabs}}" wx:for-index="index" wx:key="index" >
+                <view id="item{{index}}" class="cate-tabs-item {{activeTab === index ? 'item-selected' : ''}}" bind:tap="tapItem" data-index="{{index}}">
+                    <view class="cate-tabs-item-text">
+                        <text class="">{{item.text}}</text>
+                    </view>
+                </view>
+            </block>
+        </view>
+    </scroll-view>
+</view>

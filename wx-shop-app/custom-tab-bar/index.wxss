@@ -1,0 +1,36 @@
+/* app/custom-tab-bar/index.wxss */
+@import "/style/iconfont.wxss";
+
+.bottom-tab-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 109rpx;
+    width: 100%;
+    background-color: #fff;
+    border-top: 1rpx solid #eee;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.tab-bar-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20rpx;
+}
+
+.tab-bar-item-icon {
+    font-size: 40rpx;
+}
+
+.tab-bar-item-text {
+    margin-top: 4rpx;
+    font-size: 24rpx;
+}
+
+.item-selected {
+    color: #ff553e;
+}

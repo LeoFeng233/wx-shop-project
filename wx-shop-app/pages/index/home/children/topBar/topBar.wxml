@@ -1,0 +1,16 @@
+<view style="padding-top: {{statusBarHeight}}; padding-right: {{menuButtonLiftSite}}" class="custom-top-bar">
+    <view class="top-bar-container">
+        <view class="user-info">
+            <view class="user-avatar">
+                <open-data type="userAvatarUrl" />
+            </view>
+
+            <view class="user-nickname">
+                <open-data type="userNickName" />
+            </view>
+        </view>
+        <view class="search-button iconfont icon-sousuo">
+
+        </view>
+    </view>
+</view>
