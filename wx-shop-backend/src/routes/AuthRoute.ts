@@ -44,7 +44,7 @@ authRouter.post('/register', async (ctx) => {
             },
             jwtTokenKey,
             {
-                expiresIn: '7d'
+                expiresIn: '3d'
             }
         )
 
@@ -63,21 +63,30 @@ authRouter.get('/checkLogin', async (ctx) => {
         ctx.body = {
             message: '请提供token'
         };
+        return;
     }
 
     const token = ctx.request.query.token;
 
     // 在verify中加入回调函数避免因为token过期导致请求崩溃
+    // jsonWebToken验证token的时候，如果token过期，会直接报错，验证时加入回调可以避免请求崩溃
     let tokenRef = {}
     jwt.verify(token, jwtTokenKey, (error: VerifyErrors | null, result: object | undefined) => {
+        // 如果成功验证token，则将验证结果返回回调之外。
         if (!error) {
             tokenRef = result;
         }
     });
 
-    const queryResult = await User.findOne({
-        openId: (tokenRef as { openId: string }).openId
-    })
+    let queryResult = null;
+    // 如果没有取到openId属性，说明token过期，则不用查询数据库
+    if ((tokenRef as {openId: string}).openId) {
+        queryResult = await User.findOne({
+            openId: (tokenRef as { openId: string }).openId
+        })
+    }
+
+    // 查询到用户，说明登录未过期，且用户已经注册。
     if (queryResult) {
         ctx.status = 200;
         ctx.body = {

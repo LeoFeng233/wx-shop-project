@@ -4,20 +4,20 @@
     <view class="goods-list-layout" style="top: {{topBarHeight}}; bottom: 110rpx">
 
         <recycleView scroll-y batch="{{batchSetRecycleData}}" id="recycleId" height="655">
-                <view>
-                    <discountTicketList/>
-                    <cateTabs tabs="{{tas}}"
-                              activeTab="{{activeTab}}"
-                              bind:tabClick="onTabClick"/>
-                </view>
+            <view>
+                <discountTicketList/>
+                <cateTabs tabs="{{tas}}"
+                          activeTab="{{activeTab}}"
+                          bind:tabClick="onTabClick"/>
+            </view>
 
-                <view class="goods-list">
-                    <recycle-item class="goods-item" wx:for="{{recycleList}}" wx:key="index">
-                        <view class="goods-item-content">
-                            {{item.text}}
-                        </view>
-                    </recycle-item>
-                </view>
+            <view class="goods-list">
+                <recycle-item class="goods-item" wx:for="{{recycleList}}" wx:key="index">
+                    <view class="goods-item-content">
+                        {{item.text}}
+                    </view>
+                </recycle-item>
+            </view>
         </recycleView>
     </view>
 </view>
