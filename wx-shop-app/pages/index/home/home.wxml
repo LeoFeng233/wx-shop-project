@@ -3,12 +3,18 @@
 
     <view class="goods-list-layout" style="top: {{topBarHeight}}; bottom: 110rpx">
 
-        <recycleView scroll-y batch="{{batchSetRecycleData}}" id="recycleId" height="655">
+        <recycleView scroll-y batch="{{batchSetRecycleData}}" id="recycleId" height="655" bindscroll="goodsListScroll">
             <view>
-                <discountTicketList/>
-                <cateTabs tabs="{{tas}}"
-                          activeTab="{{activeTab}}"
-                          bind:tabClick="onTabClick"/>
+                <view>
+                    <loginBox wx:if="{{!loginAuthInLoginBehavior}}" bind:loginAction="reloadPage"></loginBox>
+                    <discountTicketList wx:else/>
+                </view>
+                <view style="height: {{cateTabsInfo.height}}px">
+                    <cateTabs class="goods-cate-tab {{cateTabFixedInTop ? 'fixed-cate-tab' : ''}}"
+                              tabs="{{tas}}"
+                              activeTab="{{activeTab}}"
+                              bind:tabClick="onTabClick"/>
+                </view>
             </view>
 
             <view class="goods-list">

@@ -1,0 +1,6 @@
+<view class="login-box">
+    <view class="login-box-title">
+        <text>还未注册，注册之后使用完整功能</text>
+    </view>
+    <button class="login-button" open-type="getUserInfo" type="warn" size="mini" bind:getuserinfo="getUserInfoAction">注册</button>
+</view>

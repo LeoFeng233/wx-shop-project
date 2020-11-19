@@ -1,0 +1,22 @@
+.login-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20rpx 0;
+    /*border: 1px solid #ff553e;*/
+    background-color: #ff553e;
+    color: #fff;
+    border-radius: 10rpx;
+}
+
+.login-box-title {
+    font-size: 24rpx;
+    display: block;
+}
+
+.login-button {
+    margin: 0 0 0 30rpx;
+    /*background-color: #ff553e !important;*/
+    /*color: #fff !important;*/
+    font-weight: normal;
+}

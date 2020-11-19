@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8beb53a8-e3f8-42b4-8ef7-2706048d7f29" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/index/home/children/indexLoginBox/loginBox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/index/home/children/indexLoginBox/loginBox.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/index/home/children/indexLoginBox/loginBox.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/index/home/children/indexLoginBox/loginBox.wxss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index/home/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/home/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index/home/home.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/home/home.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index/home/home.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/home/home.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/project.config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index/home/home.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/home/home.wxss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../wx-shop-backend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../wx-shop-backend/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wx-shop-backend/src/routes/AuthRoute.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../wx-shop-backend/src/routes/AuthRoute.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +24,7 @@
       <list>
         <option value="Wechat mini program component js file" />
         <option value="Wechat mini program component json file" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -56,7 +61,7 @@
       <updated>1605583890734</updated>
       <workItem from="1605583891855" duration="22839000" />
       <workItem from="1605660515717" duration="14361000" />
-      <workItem from="1605745123134" duration="6906000" />
+      <workItem from="1605745123134" duration="26628000" />
     </task>
     <servers />
   </component>

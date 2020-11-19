@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bfe54b95-8e90-4e3d-8faf-d92fc85e2fa0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../wx-shop-app/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../wx-shop-app/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wx-shop-app/pages/index/home/children/indexLoginBox/loginBox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wx-shop-app/pages/index/home/children/indexLoginBox/loginBox.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wx-shop-app/pages/index/home/children/indexLoginBox/loginBox.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wx-shop-app/pages/index/home/children/indexLoginBox/loginBox.wxss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../wx-shop-app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../wx-shop-app/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../wx-shop-app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../wx-shop-app/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wx-shop-app/pages/index/home/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/../wx-shop-app/pages/index/home/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wx-shop-app/pages/index/home/home.json" beforeDir="false" afterPath="$PROJECT_DIR$/../wx-shop-app/pages/index/home/home.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../wx-shop-app/pages/index/home/home.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/../wx-shop-app/pages/index/home/home.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wx-shop-app/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/../wx-shop-app/project.config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wx-shop-app/pages/index/home/home.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/../wx-shop-app/pages/index/home/home.wxss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/AuthRoute.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/AuthRoute.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +77,7 @@
       <updated>1605704814816</updated>
       <workItem from="1605704815926" duration="1517000" />
       <workItem from="1605706830254" duration="900000" />
-      <workItem from="1605744775169" duration="2207000" />
+      <workItem from="1605744775169" duration="4843000" />
     </task>
     <servers />
   </component>
@@ -89,22 +93,22 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1060" y="455" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1605745120177" />
-    <state width="2539" height="384" key="GridCell.Tab.0.bottom" timestamp="1605758035095">
+    <state width="2539" height="384" key="GridCell.Tab.0.bottom" timestamp="1605758118910">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="384" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1605758035095" />
-    <state width="2539" height="384" key="GridCell.Tab.0.center" timestamp="1605758035095">
+    <state width="2539" height="384" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1605758118910" />
+    <state width="2539" height="384" key="GridCell.Tab.0.center" timestamp="1605758118910">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="384" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1605758035095" />
-    <state width="2539" height="384" key="GridCell.Tab.0.left" timestamp="1605758035095">
+    <state width="2539" height="384" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1605758118910" />
+    <state width="2539" height="384" key="GridCell.Tab.0.left" timestamp="1605758118909">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="384" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1605758035095" />
-    <state width="2539" height="384" key="GridCell.Tab.0.right" timestamp="1605758035095">
+    <state width="2539" height="384" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1605758118909" />
+    <state width="2539" height="384" key="GridCell.Tab.0.right" timestamp="1605758118910">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="384" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1605758035095" />
+    <state width="2539" height="384" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1605758118910" />
     <state x="781" y="344" key="SettingsEditor" timestamp="1605706942787">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
