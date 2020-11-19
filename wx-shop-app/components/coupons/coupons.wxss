@@ -1,0 +1,28 @@
+/* components/coupons/coupons.wxss */
+.coup{
+  width: 94%;
+  height: 76px;
+  box-sizing: border-box;
+  padding-left: 12px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  border: 6px;
+  margin: 12px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon{
+  font-size: 12px;
+}
+
+.next text{
+  font-size: 12px;
+  color: #999999;
+}
+
+.next .type{
+  color:#777777;
+  padding-right: 14px;
+}

@@ -1,0 +1,74 @@
+/* components/address/add_location/location.wxss */
+
+@import "../../../style/iconfont.wxss";
+
+.location{
+  width: 94%;
+  height: 200px;
+  margin: 0 auto;
+  border-radius: 6px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  padding: 0 12px;
+}
+
+.location view{
+  width: 100%;
+  line-height: 40px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.location label{
+  font-size: 14px;
+  margin-right: 24px;
+}
+
+.location input{
+  height: 28px;
+  width: 140px;
+  font-size: 12px;
+  color: #bbbbbb;
+}
+
+.placeholder{
+  font-size: 12px;
+  color: #bbbbbb;
+}
+
+.iconfont{
+  font-size: 12px;
+  margin-left: 65px;
+  color: #bbbbbb;
+}
+
+.defalut_address{
+  width: 94%;
+  height: 46px;
+  margin: 14px auto;
+  background-color: #ffffff;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0 12px;
+}
+
+.defalut_text{
+  font-size: 14px;
+  color: #666666;
+}
+
+.submit{
+  width: 76%;
+  height: 32px;
+  line-height: 32px;
+  margin: 40px auto;
+  background-color: #F34343;
+  text-align: center;
+  font-size: 14px;
+  color: #ffffff;
+  border-radius: 4px;
+}

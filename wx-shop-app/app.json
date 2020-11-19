@@ -1,33 +1,36 @@
 {
-    "entryPagePath": "pages/index/home/home",
-    "pages": [
-        "pages/index/home/home",
-        "pages/index/cart/cart",
-        "pages/index/mine/mine"
-    ],
-    "window": {
-        "backgroundTextStyle": "light",
-        "navigationBarBackgroundColor": "#fff",
-        "navigationBarTitleText": "Weixin",
-        "navigationBarTextStyle": "black"
-    },
-    "tabBar": {
-        "custom": true,
-        "list": [
-            {
-                "pagePath": "pages/index/home/home",
-                "text": "首页"
-            },
-            {
-                "pagePath": "pages/index/cart/cart",
-                "text": "购物袋"
-            },
-            {
-                "pagePath": "pages/index/mine/mine",
-                "text": "我的"
-            }
-        ]
-    },
-    "style": "v2",
-    "sitemapLocation": "sitemap.json"
+  "entryPagePath": "pages/index/mine/mine",
+  "pages": [
+    "pages/index/home/home",
+    "pages/index/cart/cart",
+    "pages/index/mine/mine",
+    "components/coupons/coupons",
+    "components/address/add_location/location",
+    "components/address/address_manage/address"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "custom": true,
+    "list": [
+      {
+        "pagePath": "pages/index/home/home",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/index/cart/cart",
+        "text": "购物袋"
+      },
+      {
+        "pagePath": "pages/index/mine/mine",
+        "text": "我的"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
 }

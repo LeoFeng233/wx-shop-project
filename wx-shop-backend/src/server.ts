@@ -11,8 +11,10 @@ mongoose.connect(MONGODB_URL, {
 
     server.on("error", (error) => {
         console.log("服务启动失败");
+        console.log(error);
+        
     });
     server.listen(SERVER_PORT, SERVER_ADDRESS, () => {
-        console.log("服务启动成功");
+        console.log("服务启动成功.......");
     });
 })

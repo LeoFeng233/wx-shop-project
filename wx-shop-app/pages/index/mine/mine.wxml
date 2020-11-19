@@ -1,2 +1,45 @@
 <!--components/index/mine/mine.wxml-->
-<text>components/index/mine/mine.wxml</text>
+<view class="mine">
+  <view class="user">
+    <image src="{{user_inform.path}}" alt="" />
+    <text>{{user_inform.name}}</text>
+  </view>
+
+  <view class="order">
+    <view class="ord">
+      <text class="iconfont icon-order_icon"></text>
+      <text class="txt">全部订单</text>
+    </view>
+    <view class="ord">
+      <text class="iconfont icon-daifukuan"></text>
+      <text class="txt">代付款</text>
+    </view>
+    <view class="ord">
+      <text class="iconfont icon-daishouhuo"></text>
+      <text class="txt">待收货</text>
+    </view>
+    <view class="ord">
+      <text class="iconfont icon-tuikuan"></text>
+      <text class="txt">退款/售后</text>
+    </view>
+  </view>
+
+  <!-- <navigator url="../../../components/coupons/coupons"> -->
+    <view class="unified" bindtap="goCouponsAction">
+      <text>优惠券</text>
+      <text class="iconfont icon-xiangyou"></text>
+    </view>
+  <!-- </navigator> -->
+
+  <!-- <navigator url="../../../components/address_manage/address"> -->
+    <view class="unified" bindtap="goAddressAction">
+      <text>地址管理</text>
+      <text class="iconfont icon-xiangyou"></text>
+    </view>
+  <!-- </navigator> -->
+
+  <view class="unified">
+    <text>客户</text>
+  </view>
+</view>
+

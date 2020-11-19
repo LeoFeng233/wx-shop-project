@@ -1,0 +1,31 @@
+<!--components/coupons/coupons.wxml-->
+<view wx:for="{{coupons}}" wx:key="index">
+  <view wx:if="{{item.id === 0}}" class="coup">
+    <view class="typ">
+      <view>
+        <text class="icon">￥</text>
+        <text>{{item.price}}</text>
+      </view>
+      <view class="next">
+        <text class="type">{{item.type}}</text>
+        <text>{{item.date}}</text>
+        <text>{{item.time}}</text>
+      </view>
+    </view>
+    <button type="primary" bindtap="goHomeAction" size="mini" hover-class="none">使用</button>
+  </view>
+  <view wx:else class="coup">
+    <view class="typ">
+      <view>
+        <text>{{item.price}}</text>
+        <text class="icon">折</text>
+      </view>
+      <view class="next">
+        <text class="type">{{item.type}}</text>
+        <text>{{item.date}}</text>
+        <text>{{item.time}}</text>
+      </view>
+    </view>
+    <button type="primary" bindtap="goHomeAction" size="mini" hover-class="none">使用</button>
+  </view>
+</view>

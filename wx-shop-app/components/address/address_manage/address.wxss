@@ -1,0 +1,41 @@
+/* components/address_manage/address.wxss */
+.usr{
+  width: 92%;
+  height: 76px;
+  background-color: #ffffff;
+  margin: 12px auto;
+  box-sizing: border-box;
+  padding: 0 18px 0 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.usr text{
+  font-size: 12px;
+  color: #999999;
+  padding-right: 10px;
+}
+
+.i{
+  width: 14px;
+  height: 14px;
+  font-size: 12px;
+  color: #999999;
+  border: 1px solid #999999;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.add{
+  width: 60%;
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+  border-radius: 4px;
+  background-color: #F94646;
+  color: #ffffff;
+  position: absolute;
+  left: 22.5%;
+  bottom: 14px;
+}

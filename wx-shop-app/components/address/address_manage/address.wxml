@@ -1,0 +1,19 @@
+<!--components/address_manage/address.wxml-->
+<view wx:for="{{user}}" wx:key="index">
+  <view class="usr">
+    <view>
+      <view>
+        <text>{{item.name}}</text>
+        <text>{{item.tel}}</text>
+      </view>
+      <view>
+        <text>{{item.city}}</text>
+        <text>{{item.rigion}}</text>
+        <text>{{item.level}}</text>
+      </view>
+    </view>
+    <view class="i">i</view>
+  </view>
+</view>
+
+<view class="add" bindtap="toAddressAction">新增地址</view>
